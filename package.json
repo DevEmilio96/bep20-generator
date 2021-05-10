@@ -9,14 +9,14 @@
   "scripts": {
     "dev": "lite-server",
     "truffle:console": "truffle develop",
-    "truffle:compile": "https://devemilio96.github.io/bep20-generator/scripts/compile.sh",
+    "truffle:compile": "scripts/compile.sh",
     "truffle:test": "npm run truffle:compile && scripts/test.sh",
     "hardhat:console": "hardhat console",
     "hardhat:compile": "hardhat compile",
     "hardhat:test": "hardhat test",
     "hardhat:coverage": "hardhat coverage --network coverage",
     "test": "npm run hardhat:test",
-    "coverage": "https://devemilio96.github.io/bep20-generator/scripts/coverage.sh",
+    "coverage": "scripts/coverage.sh",
     "clean": "rm -rf coverage",
     "profile": "npm run clean && npm run coverage && open coverage/index.html",
     "lint": "npm run lint:js && npm run lint:sol",
@@ -37,17 +37,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vittominacori/bep20-generator.git"
+    "url": "https://github.com/devemilio96/bep20-generator.git"
   },
-  "homepage": "https://vittominacori.github.io/bep20-generator",
+  "homepage": "https://devemilio96.github.io/bep20-generator",
   "bugs": {
-    "url": "https://github.com/vittominacori/bep20-generator/issues"
+    "url": "https://github.com/devemilio96/bep20-generator/issues"
   },
-  "author": "Vittorio Minacori",
+  "author": "Emilio Clemente",
   "contributors": [
     {
-      "name": "Vittorio Minacori",
-      "url": "https://github.com/vittominacori"
+      "name": "Emilio Clemente",
+      "url": "https://github.com/devemilio96"
     }
   ],
   "license": "MIT",
