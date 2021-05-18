@@ -37,15 +37,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devemilio96/bep20-generator.git"
+    "url": "https://github.com/vittominacori/bep20-generator.git"
   },
-  "homepage": "https://devemilio96.github.io/bep20-generator",
+  "homepage": "https://vittominacori.github.io/bep20-generator",
   "bugs": {
-    "url": "https://github.com/devemilio96/bep20-generator/issues"
+    "url": "https://github.com/vittominacori/bep20-generator/issues"
   },
-  "author": "Emilio Clemente",
+  "author": "Vittorio Minacori",
   "contributors": [
-    "Emilio Clemente (https://github.com/devemilio96)"
+    {
+      "name": "Vittorio Minacori",
+      "url": "https://github.com/vittominacori"
+    }
   ],
   "license": "MIT",
   "devDependencies": {
@@ -69,14 +72,9 @@
     "solidity-coverage": "^0.7.16",
     "surya": "^0.4.2",
     "truffle": "^5.3.4",
-    "truffle-flattener": "^1.5.0",
-    "vuepress": "^1.8.2"
+    "truffle-flattener": "^1.5.0"
   },
   "dependencies": {
     "@openzeppelin/contracts": "4.1.0"
-  },
-  "main": "hardhat.config.js",
-  "directories": {
-    "test": "test"
   }
 }

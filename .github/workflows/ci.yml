@@ -39,10 +39,10 @@ jobs:
           node-version: '14.x'
 
       - name: Install dependencies
-        run: npm install & npm install -D vuepress
-        
+        run: npm install
+
       - name: Test
-        run: npm run dev
+        run: npm test
 
   coverage:
     name: Coverage
